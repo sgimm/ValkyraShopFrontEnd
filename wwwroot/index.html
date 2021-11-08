@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> -=Valkyra Shop=- </title>
+		<link rel="stylesheet" href="./css/HeaderControl.css" />
+		<link rel="stylesheet" href="./css/SreachControl.css" />
+		<link rel="stylesheet" href="./css/HeaderAccountControl.css" />
+
+		<script src="./js/ComponentBase/Valkyra.js"></script>
+		<script src="./js/Dtos/CustomerWebAccount.js"></script>
+		<script src="./js/Dtos/WebLogin.js"></script>
+		<script src="./js/ComponentBase/TComponent.js"></script>
+		<script src="./js/ComponentBase/TMessageObject.js"></script>
+		<script src="./js/ProductViewComponent.js"></script>
+		<script src="./js/RootComponent.js"></script>
+		<script src="./js/DataProviderComponent.js"></script>
+		<script src="./js/ContentManagerComponent.js"></script>
+		<script src="./js/SessionComponent.js"></script>
+		<script src="./js/Helpers/RestHelper.js"></script>
+		<script src="./js/HeaderComponent.js"></script>
+		<script src="./js/Controls/ControlBase.js"></script>
+		<script src="./js/Controls/ProductView.js"></script>
+		<script src="./js/Controls/SearchControl.js"></script>
+		<script src="./js/Controls/ImageButton.js"></script>
+		<script src="./js/Controls/HeaderControl.js"></script>
+		<script src="./js/Controls/HeaderAccountControl.js"></script>
+		<script src="./js/Controls/RegisterControl.js"></script>
+		<script src="./js/Controls/LabledInput.js"></script>
+		<script src="./js/Controls/LoginControl.js"></script>
+		<script src="./js/Controls/Button.js"></script>
+		<script src="./js/Controls/ImageControl.js"></script>
+		<script src="./js/Controls/ControlSlider.js"></script>
+		<script src="./js/CustomerViewComponent.js"></script>
+		<script src="./js/CustomerDataProviderComponent.js"></script>
+		<script src="./js/Controls/CustomerViewControl.js"></script>
+		<script src="./js/Controls/LabledTextBox.js"></script>
+		<script src="./js/Views/CustomerDataReadView.js"></script>
+		<script src="./js/Views/CustomerDataWriteView.js"></script>
+		<script src="./js/Controls/ProductItem.js"></script>
+		<script src="./js/site.js"></script>
+		
+		<script>
+			var app = null;
+			function init() {
+
+				app = new ValkyraApp(document.getElementById("LayoutRoot"));
+				app.Initialize();
+			}
+		</script>
+	</head>
+	<body onload="init();">
+		<div id="LayoutRoot">
+		</div>
+	</body>
+</html>

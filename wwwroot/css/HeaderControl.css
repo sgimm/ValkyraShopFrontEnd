@@ -1,0 +1,9 @@
+﻿.HeaderControlContainer {
+    position: relative;
+    padding-top: 12px;
+}
+.HeaderControlLayer {
+    background-color: #3333FF;
+    height: 60px;
+    display: block
+}

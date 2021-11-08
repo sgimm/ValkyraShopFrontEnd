@@ -1,0 +1,11 @@
+﻿.SearchInput {
+    height: 29px;
+}
+.SearchButton{
+    height:35px;
+}
+.SearchControlLayer
+{
+    display: inline;
+    float:left;
+}
